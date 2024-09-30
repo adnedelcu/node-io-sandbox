@@ -1,0 +1,13 @@
+{
+  "name": "node-io-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "create": "node index create",
+    "delete": "node index delete"
+  },
+  "repository": "git@github.com:adnedelcu/node-io-sandbox.git",
+  "author": "Alexandru-Daniel Nedelcu <alexnedelcu0@gmail.com>",
+  "license": "MIT",
+  "type": "module"
+}
