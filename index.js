@@ -8,7 +8,7 @@ switch (action) {
     if (!process.argv[3]?.length) {
       throw new Error('Message cannot be empty');
     }
-    createFileWithMessage(process.argv[3]);
+    createFileWithMessage(process.argv[3], process.argv[4]);
 
     break;
 
