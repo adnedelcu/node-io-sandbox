@@ -21,5 +21,10 @@ switch (action) {
     break;
 
   default:
-    throw new Error(`Action '${action}' was not recognized. Available actions: 'create' and 'delete'`);
+    console.error(`Action '${action}' was not recognized. Available actions: 'create' and 'delete'\n`);
+    console.log('Usage:');
+    console.log('\tnode index create <message> [filename]');
+    console.log('\tnode index delete <filename>');
+
+    break;
 }
